@@ -12,4 +12,4 @@ Create a python function to retrieve clean rainfall data from the NOAA weather r
 I want to create a .csv file with a clean radar-derived rainfall data for a particular location. 
 
 ## Sketch
-<img src="sketch.jpg" alt="sketch_image" width="500"/>
+<img src="sketch.JPG"  width="500"/>
