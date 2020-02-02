@@ -1,6 +1,15 @@
-# semester_project
-Intro to programming project
+# A Function for Retrieving Rainfall Data from Weather Radar
+## Nathaniel Parker, KSU Dept. of Agronomy, Manhattan, KS
 
-## Inputs
-- Air temperature in degrees celcius
-- Relative humidy in %
+
+## Motivation
+Rainfall is the main source of water for plants, animals and humans and doubles as the input variable in the soil water balance. Accurate rainfall measurement is important for monitoring environmental events such as drought and flooding. Rainfall measurement is typically measured with rain gauge, which only gives point data. In recent times, there is increased interest in rainfall measurement at the mesoscale and global level and thus radar data has become very useful in undertaking this purpose. Although many weather-mentoring agencies make their data freely available for download through their website, obtaining radar data via websites is often complicated. In addition, the data is usually not clean. 
+
+## Objective 
+Create a python function to retrieve clean rainfall data from the NOAA weather radar
+
+## Outcome 
+I want to create a .csv file with a clean radar-derived rainfall data for a particular location. 
+
+## Sketch
+<img src="sketch.jpg" alt="sketch_image" width="500"/>
