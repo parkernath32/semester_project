@@ -1,28 +1,29 @@
-# A Python Code for Retrieving Rainfall at a given location from Gridded Rainfall products
-#### Name: Nathaniel Parker
-#### Research Area: Soil water Processes
-#### Institution: Agronomy Dept., Kansas State Univerity 
-#### Semester: Spring 2020
+# A Python Code for Retrieving Rainfall at Ungauged Locations from Gridded Rainfall Products
+##### Name: Nathaniel Parker
+##### Research Area: Soil water Processes
+##### Institution: Agronomy Dept., Kansas State Univerity 
+##### Semester: Spring 2020
 
 ## Motivation
-Rainfall is the main source of water for plants, animals and humans and doubles as the input variable in the soil water balance. Accurate rainfall measurement is important for monitoring environmental events such as drought and flooding. The stardard technique for rainfall measurement is rain gauge. However, it only gives a point measurement for the location it is installed and cannot give readings for ugauged locations. Radars and satellites give rainfall measurements over a large area but are often prone to errors because they do not directly measure rainfall but instead infer rainfall from signal reflectivity (Hong et al., 2013; Brocca et al., 2019). Owing to the limitations of the individual techniques, the use of multi-sensor gridded rainfall products have proven to be a useful approach in getting fairly accurate rainfall data on a large spatial scale (Lawrence et al., 2003). Multi-sensor gridded rainfall products is derived by combining rainfall measurements from rain gauge, radars and satellites into a single gridded rainfall data over a large area. 
+Rainfall measurement is important for monitoring environmental events such as drought and flooding. The stardard and direct technique for rainfall measurement is rain gauge. However, rain gauge provide point measurements at the location it is installed but is unable to measure rainfall over a large area as well as cannot give measuremets at ungauged locations (i.e. locations with no rain gauge). Radars and satellites give rainfall measurements on large spatial scale but at a coarse resolution (between 2 km and 450 km spatial resolution)(Hong et al., 2013). Also, radars and satellites are prone to errors because they measure rainfall indirectly from signal reflectivity (Brocca et al., 2019). Owing to the limitations of the various rainfall measurement techniques, the use of multi-sensor gridded rainfall products have become in deriving rainfall measurements over a large area (Lawrence et al., 2003). Multi-sensor gridded rainfall products are derived by combining rainfall records from rain gauge, radars and satellites into a single map of gridded rainfall data. 
 
-Although weather-monitoring agencies such as the National Weather Service have made it easy to download gridded rainfall data through their website, it is not straight forward and often complicated to retrieve a point rainfall measurement from gridded poducts at any given location since it requires great experience in processing data with Geographic Information Systems (GIS) softwares. There is therefore a need to create a simplified python code for retrieving point level rainfall data from gridded products to aid decision-making. The code created here is compatible with the multi-sensor gridded rainfall products from the National Weather Service and require the latitude and longitude of the location of interest as the only input. 
+Weather-monitoring agencies such as the National Weather Service have made it easy to obtain gridded rainfall data through their websites, however, it is complicated to retrieve point rainfall measurements from gridded poducts for any given location since such activity requires great experience in data processing with Geographic Information Systems (GIS) softwares. There is therefore a need for a simple method for retrieving rainfall measurements at ungauged locations (point measurements) from gridded rainfall products to aid decision-making. This project presents a python code for retrieving rainfall data at an ungauged location from the National Weather Service’s multi-sensor rainfall product using the latitude and longitude of that location as the only input. 
+
 ## Objective 
-Create a python code for retrieving rainfall measurements at a given location from the National Weather Service’s multi-sensor rainfall product
+Create a python code for retrieving rainfall measurements at ungauged locations (point measurements) from gridded rainfall products. 
 
 ## Methodology
-The data for this project was obtained from the National Weather Service's (NWS) multi-sensor gridded rainfall product. NWS have gridded rainfall products in hourly, daily, monthly, and yearly time intervals accessible via https://water.weather.gov/precip/download.php. 
-Here, a single rainfall map (in GeoTiff format) for the last 365 days (i.e. 365 days before April 26, 2020) for contiguous USA from the National Weather Service's (NWS) multi-sensor gridded rainfall product was used as an example data file to set up this code. However, the code should be compatible with GeoTiff files from other sources. In addition, the code can be easily modified to process multiple maps (i.e. stacked maps).
+The data for this project was obtained from the National Weather Service's (NWS) multi-sensor gridded rainfall product. The NWS gridded rainfall products are available in hourly, daily, monthly, and yearly time intervals. The products are accessible via https://water.weather.gov/precip/download.php. 
+Here, a single rainfall map (in GeoTiff format) of rainfall records for the last 365 days before April 26, 2020, for contiguous USA was used as an example data file to set up this code. However, the code should be compatible with GeoTiff files from other sources. In addition, the code can be easily modified to process multiple maps at a single run (i.e. stacked maps).
 
-The steps is outlined in the chart below.
+The steps followed in this project are outlined in Figure 1 below.
 
-## Sketch
+##### Sketch
 <img src="sketch.JPG"  width="500"/>
-
+Figure 1. A flow chart of the procedures followed to develop the code for this project. 
 
 ## Outcome 
-I want to derive rainfall measurement for for a particular location in Kansas using the location's latitude and longitude. 
+Derived rainfall measurement for for an ungauged location in Kansas using the location's latitude and longitude. 
 
 ## References
 Brocca, L., Filippucci, P., Hahn, S., Ciabatta, L., Massari, C., Camici, S., Schüller, L., Bojkov, B. and Wagner, W., 2019. SM2RAIN-ASCAT (2007–2018): Global daily satellite rainfall from ASCAT soil moisture. Earth Syst. Sci. Data Discuss, pp.1-31.
