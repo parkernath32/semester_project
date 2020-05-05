@@ -22,6 +22,13 @@ The steps followed in this project are outlined in Figure 1 below.
 <img src="sketch.JPG"  width="500"/>
 Figure 1. A flow chart of the procedures followed to develop the code for this project. 
 
+##### Test Locations 
+Manhattan: latitude = 39.183, longitude = -96.571
+
+Topeka: latitude = 39.047, longitude = -95.675
+
+Colby: latitude = 39.396, longitude = -101.052
+
 ## Outcome 
 Derived rainfall measurement for for an ungauged location in Kansas using the location's latitude and longitude. 
 
