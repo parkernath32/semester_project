@@ -18,19 +18,19 @@ Here, a single rainfall map (in GeoTiff format) of rainfall records for the last
 
 The steps followed in this project are outlined in Figure 1 below.
 
-##### Sketch
+#### Sketch
 <img src="sketch.JPG"  width="500"/>
 Figure 1. A flow chart of the procedures followed to develop the code for this project. 
 
-##### Test Locations 
-Manhattan: latitude = 39.183, longitude = -96.571
+#### Test Locations and Results
+##### Colby, KS: latitude = 39.396, longitude = -101.052
+<img src="Colby_365days_rainfall.JPG"  width="500"/>
 
-Topeka: latitude = 39.047, longitude = -95.675
-
-Colby: latitude = 39.396, longitude = -101.052
+##### New Orleans, LA: latitude = 29.951 , longitude = -90.071
+<img src="New_Orleans_365days_rainfall.JPG"  width="500"/>
 
 ## Outcome 
-Derived rainfall measurement for for an ungauged location in Kansas using the location's latitude and longitude. 
+Derived rainfall measurement for some ungauged locations in contiguous US using the location's latitude and longitude. 
 
 ## References
 Brocca, L., Filippucci, P., Hahn, S., Ciabatta, L., Massari, C., Camici, S., Schüller, L., Bojkov, B. and Wagner, W., 2019. SM2RAIN-ASCAT (2007–2018): Global daily satellite rainfall from ASCAT soil moisture. Earth Syst. Sci. Data Discuss, pp.1-31.
