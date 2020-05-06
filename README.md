@@ -20,7 +20,7 @@ The steps followed in this project are outlined in Figure 1 below. Note: this pr
 
 #### Sketch
 <img src="sketch.JPG"  width="500"/>
-Figure 1. A flow chart of the procedures followed to develop the code for this project. 
+Figure 1. Steps to retrieving a rainfall reading at a given location (point measurement) from gridded rainfall map. 
 
 #### Test Locations and Results
 ##### Colby, KS: latitude = 39.396, longitude = -101.052 
