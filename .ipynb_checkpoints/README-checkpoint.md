@@ -16,14 +16,14 @@ Create a python code for retrieving rainfall measurements at ungauged locations 
 The data for this project was obtained from the National Weather Service's (NWS) multi-sensor gridded rainfall product. The NWS gridded rainfall products are available in hourly, daily, monthly, and yearly time intervals. The products are accessible via https://water.weather.gov/precip/download.php. 
 Here, a single rainfall map (in GeoTiff format) of rainfall records for the last 365 days before April 26, 2020, for contiguous USA was used as an example data file to set up this code. However, the code should be compatible with GeoTiff files from other sources. In addition, the code can be easily modified to process multiple maps at a single run (i.e. stacked maps).
 
-The steps followed in this project are outlined in Figure 1 below.
+The steps followed in this project are outlined in Figure 1 below. Note: this project does not cover how to download gridded rainfall product and thus it is assummed that you have obtained the gridded data (.Tiff file) prior to using the procedure outlined below.
 
 #### Sketch
 <img src="sketch.JPG"  width="500"/>
 Figure 1. A flow chart of the procedures followed to develop the code for this project. 
 
 #### Test Locations and Results
-##### Colby, KS: latitude = 39.396, longitude = -101.052
+##### Colby, KS: latitude = 39.396, longitude = -101.052 
 <img src="Colby_365days_rainfall.JPG"  width="500"/>
 
 ##### New Orleans, LA: latitude = 29.951 , longitude = -90.071
