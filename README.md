@@ -23,7 +23,7 @@ The steps followed in this project are outlined in Figure 1 below.
 Figure 1. A flow chart of the procedures followed to develop the code for this project. 
 
 #### Test Locations and Results
-##### Colby, KS: latitude = 39.396, longitude = -101.052
+##### Colby, KS: latitude = 39.396, longitude = -101.052git 
 <img src="Colby_365days_rainfall.JPG"  width="500"/>
 
 ##### New Orleans, LA: latitude = 29.951 , longitude = -90.071
