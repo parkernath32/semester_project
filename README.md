@@ -33,7 +33,7 @@ Figure 2. Total rainfall recorded in Colby, KS for the last 365 days before Apri
 Figure 3. Total rainfall recorded in New Orleans, LA for the last 365 days before April 26, 2020.
 
 ## Conclusion
-A procedure / python code for retrieving point rainfall measurement from gridded rainfall map for some ungauged locations in contiguous US was developed. The main inputs of the code are the location's latitude and longitude. Although, the data source is from the US, this code can be applicable in any location outside the US if the latitude and locngitude are known as well as there is avilability of gridded rainfall map. 
+A procedure / python code for retrieving point rainfall measurement from gridded rainfall map for some ungauged locations in contiguous US was developed. The main inputs of the code are the location's latitude and longitude. Although, the data source is from the US, this code is applicable to locations outside the US if the latitudes and longitudes are known as well as there is availability of gridded rainfall map. 
 
 ## References
 Brocca, L., Filippucci, P., Hahn, S., Ciabatta, L., Massari, C., Camici, S., Schüller, L., Bojkov, B. and Wagner, W., 2019. SM2RAIN-ASCAT (2007–2018): Global daily satellite rainfall from ASCAT soil moisture. Earth Syst. Sci. Data Discuss, pp.1-31.
